@@ -13,6 +13,7 @@
 		0CA05F72214DEC64000369EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA05F71214DEC64000369EE /* Assets.xcassets */; };
 		0CA05F75214DEC64000369EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA05F73214DEC64000369EE /* LaunchScreen.storyboard */; };
 		0CA05F78214DEC64000369EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA05F77214DEC64000369EE /* main.m */; };
+		0CA05F80214DEF31000369EE /* TSLockMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA05F7F214DEF31000369EE /* TSLockMgr.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0CA05F74214DEC64000369EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA05F76214DEC64000369EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CA05F77214DEC64000369EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CA05F7E214DEF31000369EE /* TSLockMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSLockMgr.h; sourceTree = "<group>"; };
+		0CA05F7F214DEF31000369EE /* TSLockMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSLockMgr.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				0CA05F68214DEC62000369EE /* AppDelegate.h */,
 				0CA05F69214DEC62000369EE /* AppDelegate.m */,
+				0CA05F7E214DEF31000369EE /* TSLockMgr.h */,
+				0CA05F7F214DEF31000369EE /* TSLockMgr.m */,
 				0CA05F6B214DEC62000369EE /* ViewController.h */,
 				0CA05F6C214DEC62000369EE /* ViewController.m */,
 				0CA05F6E214DEC62000369EE /* Main.storyboard */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA05F80214DEF31000369EE /* TSLockMgr.m in Sources */,
 				0CA05F6D214DEC62000369EE /* ViewController.m in Sources */,
 				0CA05F78214DEC64000369EE /* main.m in Sources */,
 				0CA05F6A214DEC62000369EE /* AppDelegate.m in Sources */,
